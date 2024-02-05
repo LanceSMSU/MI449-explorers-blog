@@ -7,8 +7,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addShortcode(
     'blogPost',
     (blog_name, author_name) => `
-      <div class="blogPost">
-        <div class="blog_name">Name: ${blog_name}</div>
+      <div class="blogPostHeader">
+        <div class="blog_name">${blog_name}</div>
         <div class="author_name">Author: ${author_name}</div>
       </div>
     `

@@ -17,8 +17,9 @@ body {
 }
 
 nav {
-    margin: 40px auto 0 auto;
+    margin: 60px auto 0 auto;
     width: 250px;
+    height: 60px;
     border-radius: 50px;
     background: #92DCE5;
 }
@@ -43,11 +44,57 @@ nav ul li a {
     font-size: 1.2em;
 }
 
+nav ul li a:hover {
+    color:#EEE5E9;
+}
+
 h1 {
     font-size: 6em;
     letter-spacing: -2px;
+    margin-bottom: 0;
 }
 
-img.about {
-    opacity: 0.5;
+h2 {
+    margin-top:0;
+    font-size: 2.5em;
+}
+
+img {
+    display: flex;
+    margin-top: 40px;
+}
+
+.header{
+    display: flex;
+}
+
+button{
+    font-size: 30px;
+    font-family: Helvetica;
+    background: #92DCE5;
+    border-radius: 15px;
+}
+
+button a{
+    text-decoration: none;
+    color: #383D3B;
+}
+
+button:hover{
+    background: #EEE5E9;
+}
+
+.blogPostHeader{
+    background: #7C7C7C;
+}
+
+.blog_name{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.author_name{
+    font-size: 25px;
+    margin-top:10px;
+    margin-bottom: 50px;
 }
